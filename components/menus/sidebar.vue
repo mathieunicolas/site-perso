@@ -13,12 +13,14 @@
         <nuxt-link :to="page.path">{{ page.title }}</nuxt-link>
       </li>
     </ul>
+    <!--
     <hr />
     <h3>Newsletter</h3>
     <p>Recevoir un mail de temps en temps avec le récap' des nouveautés ?</p>
     <p class="news">
       Vous pouvez vous abonner <a href="https://log.mathieunicolas.net">ici</a>.
     </p>
+    -->
   </nav>
 </template>
 
