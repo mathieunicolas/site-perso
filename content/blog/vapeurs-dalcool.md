@@ -3,6 +3,7 @@ title: Vapeurs d'alcool
 description: "Cette catégorie Photo-Texte contient le fruit d'un petit jeu que nous mettons en place avec un ami : il m'envoie une photo, et j'essaie de produire un texte basé sur ce que cette photo m'inspire."
 tags:
   - photo-texte
+date: 2017-08-30
 ---
 
 le 30/08/2017 14:44

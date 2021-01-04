@@ -3,6 +3,7 @@ title: Qui a parlé de répétition ?
 description: "Des fois, je me dis que les saintes personnes qui me relisent sont des saint(e)s !"
 tags:
   - breves
+date: 2017-08-31
 ---
 
 le 31/08/2017 19H24

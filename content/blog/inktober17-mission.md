@@ -3,6 +3,7 @@ title: "InkTober, mission accomplie"
 description: "Quand quelqu'un qui ne sait absolument pas dessiner se lance dans un challenge qui consiste à réaliser un dessin par jour"
 tags:
   - challenge
+date: 2017-11-01
 ---
 
 01/11/2017 00:07

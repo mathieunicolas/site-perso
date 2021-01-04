@@ -3,6 +3,7 @@ title: "les Contes de la Nuit des Marmites sont disponibles !"
 description: "Petit retour sur cette première expérience dans l'auto-édition !"
 tags:
   - CNDM
+date: 2017-05-05
 ---
 
 Ça y est ! Après plusieurs dizaines d’heures de travail et quelques nuits blanches, le projet qui a occupé la majeure partie de mon temps libre ces trois derniers mois a vu le jour. Célébration !

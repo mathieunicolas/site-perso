@@ -6,6 +6,7 @@ tags:
   - privacy
   - foss
 statid: "104326161135839864"
+date: 2020-07-06
 ---
 
 Bon, j'étais déjà moyennement chaud concernant toutes les "dérives" de facebook, dont la première consiste à se faire un maximum de pognon à partir de nos données personnelles.

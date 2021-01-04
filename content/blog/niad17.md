@@ -3,6 +3,7 @@ title: "Novel in a Day !"
 description: "Écrire un roman collaboratif en une journée ? C'est le pari fou du projet NiaD !"
 tags:
   - challenge
+date: 2017-10-22
 ---
 
 22/10/2017 13:24

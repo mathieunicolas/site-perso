@@ -1,5 +1,5 @@
 <template>
-  <div class="mastotest" v-if="disp">
+  <div class="mastotest">
     <h3>Commentaires à cet article :</h3>
     <p>
       <em
@@ -8,42 +8,33 @@
         ></em
       >
     </p>
-    <mastocom
-      v-for="com in data.descendants"
-      :com="com"
-      :key="com.id.toString()"
-      class="comms"
-    ></mastocom>
+    <div v-if="data !== null">
+      <mastocom v-for="com in data.descendants"
+                :key="com.id.toString()"
+                :com="com"
+                class="comms"
+      ></mastocom>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   props: ["statid"],
-  async mounted() {
-    console.log("yo le mounted diou");
-    this.data = await fetch(
-      `https://diaspodon.fr/api/v1/statuses/${this.statid}/context`
-    ).then(res => res.json());
-  },
   data() {
     return { data: null };
   },
-  computed: {
-    disp: function() {
-      if (this.data && this.data.descendants.length > 0) return true;
-      else return false;
-    }
-  } /*,
-  methods: {
-    async prout() {
-      const test = await fetch(
-        `https://diaspodon.fr/api/v1/statuses/${this.statid}/context`
-      ).then(res => res.json());
-      console.log(test);
-      this.data = test;
-    }
-  }*/
+  async fetch() {
+    console.log("yo le mounted diou");
+    this.data = await this.$http.$get(
+      `https://diaspodon.fr/api/v1/statuses/${this.statid}/context`
+    )
+    console.log('coucou')
+  },
+  mounted() {
+    this.$fetch();
+  },
+  fetchOnServer: false
 };
 </script>
 

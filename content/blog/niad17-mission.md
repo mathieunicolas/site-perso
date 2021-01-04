@@ -3,6 +3,7 @@ title: "Novel in a Day : mission accomplie"
 description: "Première expérience d'écriture en anglais, et ma première participation au projet NiaD."
 tags:
   - challenge
+date: 2017-10-28
 ---
 
 28/10/2017 19:56

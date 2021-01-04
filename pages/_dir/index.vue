@@ -11,7 +11,7 @@
 export default {
   async asyncData({ $content, params }) {
     const data = await $content(params.dir)
-      .sortBy("createdAt", "desc")
+      .sortBy("date", "desc")
       .fetch();
     const isPage = !Array.isArray(data);
     let catindex = "lol";

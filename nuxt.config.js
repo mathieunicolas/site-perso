@@ -1,7 +1,6 @@
 const URL = `https://mathieunicolas.net`;
 
 export default {
-  mode: "universal",
   target: "static",
   /*
    ** Headers of the page

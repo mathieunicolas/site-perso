@@ -3,6 +3,7 @@ title: "InkTober !"
 description: "Un chouette challenge, d'autant plus que je n'ai jamais vraiment dessiné."
 tags:
   - challenge
+date: 2017-10-01
 ---
 
 01/10/2017 19:15

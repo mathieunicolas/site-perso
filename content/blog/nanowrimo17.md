@@ -3,6 +3,7 @@ title: "NaNoWriMo : c'est décidé, je me lance !"
 description: "50.000 mots en un mois, chiche ?"
 tags:
   - challenge
+date: 2017-10-17
 ---
 
 17/10/2017 16:46

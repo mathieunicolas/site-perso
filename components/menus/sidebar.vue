@@ -25,7 +25,7 @@ export default {
 
     this.articles = await this.$content("", { deep: true })
       .where({ slug: { $nin: ["index", "welcome"] } })
-      .sortBy("updatedAt", "desc")
+      .sortBy("date", "desc")
       .limit(5)
       .fetch();
   },

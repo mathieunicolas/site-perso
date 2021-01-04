@@ -23,6 +23,7 @@ export default {
       .where({
         tags: { $contains: params.slug }
       })
+      .sortBy("date", "desc")
       .fetch();
 
     return { articles, slug };

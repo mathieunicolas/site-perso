@@ -3,6 +3,7 @@ title: "Pourquoi j’écris ?"
 description: "Petite introspection en cours de NaNoWriMo"
 tags:
   - breves
+date: 2017-10-20
 ---
 
 20/10/2017 23:38
