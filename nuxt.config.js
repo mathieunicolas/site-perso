@@ -25,7 +25,7 @@ export default {
       },
       { hid: "og:type", property: "og:type", content: "website" },
       { hid: "og:url", property: "og:url", content: URL },
-      { hid: "og:image", property: "og:image", content: `${URL}/card.png` },
+      { hid: "og:image", property: "og:image", content: `${URL}/logo.svg` },
       {
         hid: "description",
         name: "description",
