@@ -6,7 +6,7 @@ tags:
   - fediverse
   - foss
 date: 2020-06-13 
-statid: "105300652763521558"
+statid: "105538663227774223"
 ---
 
 ## Le monde selon facebook

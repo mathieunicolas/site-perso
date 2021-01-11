@@ -1,7 +1,13 @@
 <template>
   <div>
     <h1>{{ page.title }}</h1>
-    <em>{{ new Date(page.date).toLocaleDateString("fr-FR", { day: '2-digit', month: '2-digit', year: 'numeric' }) }}</em>
+    <em>{{
+      new Date(page.date).toLocaleDateString("fr-FR", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric"
+      })
+    }}</em>
     <p>
       <nuxt-link
         v-for="label in page.tags"
@@ -14,7 +20,7 @@
     <!-- <strong>{{ page.description }}</strong> -->
     <nuxt-content :document="page" />
     {{ page.statid }}
-    <mastotest v-if="page.statid" :statid="page.statid"></mastotest> -->
+    <mastotest v-if="page.statid" :statid="page.statid"></mastotest>
   </div>
 </template>
 

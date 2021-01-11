@@ -24,6 +24,7 @@
     "remark-math": "^4.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/netlify-files": "^1.2.0"
+    "@nuxtjs/netlify-files": "^1.2.0",
+    "prettier": "^1.19.1"
   }
 }

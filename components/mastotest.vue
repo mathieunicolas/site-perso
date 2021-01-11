@@ -9,10 +9,11 @@
       >
     </p>
     <div v-if="data !== null">
-      <mastocom v-for="com in data.descendants"
-                :key="com.id.toString()"
-                :com="com"
-                class="comms"
+      <mastocom
+        v-for="com in data.descendants"
+        :key="com.id.toString()"
+        :com="com"
+        class="comms"
       ></mastocom>
     </div>
   </div>
@@ -25,11 +26,9 @@ export default {
     return { data: null };
   },
   async fetch() {
-    console.log("yo le mounted diou");
     this.data = await this.$http.$get(
       `https://diaspodon.fr/api/v1/statuses/${this.statid}/context`
-    )
-    console.log('coucou')
+    );
   },
   mounted() {
     this.$fetch();
